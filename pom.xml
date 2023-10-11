@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.poc.practice</groupId>
-    <artifactId>spring-security-jwt</artifactId>
+    <artifactId>maven-ant-run-test</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>spring-security-jwt</name>
     <description>Demo project for Spring Boot</description>
