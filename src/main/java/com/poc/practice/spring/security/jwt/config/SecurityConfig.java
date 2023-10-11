@@ -1,21 +1,11 @@
 package com.poc.practice.spring.security.jwt.config;
 
 import org.springframework.context.annotation.Configuration;
-import org.springframework.security.config.annotation.SecurityBuilder;
-import org.springframework.security.config.annotation.web.WebSecurityConfigurer;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
-import org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration;
 
 @Configuration
 @EnableWebSecurity
-public class SecurityConfig extends WebSecurityConfigurer {
-    @Override
-    public void init(SecurityBuilder builder) throws Exception {
+public class SecurityConfig {
 
-    }
 
-    @Override
-    public void configure(SecurityBuilder builder) throws Exception {
-
-    }
 }
